@@ -68,7 +68,7 @@ func printOS(){
 	}
 }
 
-func main(){
+func main2(){
 
 	fmt.Print("My favorite number is", rand.Intn(10));
 	fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
