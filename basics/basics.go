@@ -1,6 +1,6 @@
-package main
+package basics
 
-import ("fmt"; "math"; "math/rand"; "runtime"; "time")
+import ("fmt"; "math"; "math/rand"; "runtime"; "time"; "GoGirl/bill")
 
 func add(x int, y int,) int{
 	
@@ -96,6 +96,6 @@ func main2(){
 	weekDay()
 	goodDay()
 
-	myBill := newBill("mako's bill")
+	myBill := bill.NewBill("mako's bill")
 	fmt.Println(myBill)
 }

@@ -1,4 +1,4 @@
-package main
+package bill
 
 
 type bill struct {
@@ -7,7 +7,7 @@ type bill struct {
 	tip float64
 }
 
-func newBill(name string) bill{
+func NewBill(name string) bill{
 	b := bill{
 		name: name,
 		items: map[string]float64{},
